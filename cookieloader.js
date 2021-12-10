@@ -1,0 +1,3 @@
+function loadCSS(e,o,t){"use strict";var n=window.document.createElement("link"),o=o||window.document.getElementsByTagName("script")[0];n.rel="stylesheet",n.href=e,n.media="only x",o.parentNode.insertBefore(n,o),setTimeout(function(){n.media=t||"all"})}loadCSS("https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i"),loadCSS("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"),loadCSS("https://cdn.jsdelivr.net/gh/teknoops/PageSEO@0643232c761fe9fa7ccdd4eb283b0ba96cebeb17/cookie.js");
+// Cookies
+window.onload=function(){localStorage.getItem("visited")||(document.getElementById("cookiesw").style.visibility="visible",localStorage.setItem("visited",!0))};
